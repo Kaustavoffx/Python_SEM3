@@ -9,7 +9,8 @@ def open_pattern7_link():
 
     # Keep asking until the user provides a valid answer
     while True:
-        res = input("Do you want to try the oneliner or normal? (one/code): ").strip().lower()
+        # Prompt updated to include the 'run' option
+        res = input("Do you want to try the oneliner, normal, or run the code? (one/code/run): ").strip().lower()
         
         if res in links:
             url = links[res]
@@ -19,8 +20,20 @@ def open_pattern7_link():
             webbrowser.open(url) 
             break 
             
+        elif res == "run":
+            print("\n--- Running Pattern 7 ---\n")
+            
+            # Your exact pattern-7 code execution
+            for r in range(4):
+                for c in range (4, r, -1):
+                    print(c, end=' ')
+                print()
+                
+            print("\n-------------------------")
+            break
+            
         else:
-            print("❌ Invalid input. Please enter exactly 'one' or 'code'.\n")
+            print("❌ Invalid input. Please enter exactly 'one', 'code', or 'run'.\n")
 
 # Run the function
 open_pattern7_link()

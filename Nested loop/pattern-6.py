@@ -9,7 +9,8 @@ def open_pattern6_link():
 
     # Keep asking until the user provides a valid answer
     while True:
-        res = input("Do you want to try the oneliner or normal? (one/code): ").strip().lower()
+        # Prompt updated to include the 'run' option
+        res = input("Do you want to try the oneliner, normal, or run the code? (one/code/run): ").strip().lower()
         
         if res in links:
             url = links[res]
@@ -19,8 +20,25 @@ def open_pattern6_link():
             webbrowser.open(url) 
             break 
             
+        elif res == "run":
+            print("\n--- Running Pattern 6 ---\n")
+            
+            # Your exact pattern-6 code execution
+            n = 5
+            sp = round(n/2)*2
+            for r in range (0, n, 2):
+                for c in range (0, sp+1):
+                    print(end=' ')
+                for c in range(0, r+1):
+                    print('*', end=' ')
+                sp -= 2
+                print()
+                
+            print("\n-------------------------")
+            break
+            
         else:
-            print("❌ Invalid input. Please enter exactly 'one' or 'code'.\n")
+            print("❌ Invalid input. Please enter exactly 'one', 'code', or 'run'.\n")
 
 # Run the function
 open_pattern6_link()
