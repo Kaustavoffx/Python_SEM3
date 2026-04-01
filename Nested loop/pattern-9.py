@@ -1,57 +1,16 @@
-res=input("do you want to try the oneliner or normal ? (one/nor/code) :")
+res=input("Do you want to try the oneliner or normal ? (one/code) :")
 
 if (res=="one"):
-    #oneliner 
-    for i in range(-2, 3): print(' ' * abs(i) + '* ' * (3 - abs(i)))
+    url1="https://github.com/Kaustavoffx/CODE-Oneliner/blob/873b44d9779a2c456f9c3cc3d599da24b830ce6c/Nested%20loop/pattern-9.py"
+    label1="Nested loop/pattern-9.py"
+    print(f'<a href ="{url1}">{label1}</a>')
 
 
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-9.py
-
-        """)
-    
-elif (res=="nor") :
-    n = 3 # Top half + middle = 3 lines
-    sp = n - 1
-
-    # Upper half (3 lines: 1, 2, 3 stars)
-    for r in range(0, n):
-        for c in range(0, sp):
-            print(end=' ')
-        for c in range(0, r + 1):
-            print('*', end=' ')
-        sp -= 1
-        print()
-
-    # Lower half (2 lines: 2, 1 stars)
-    sp = 1
-    for r in range(n - 1, 0, -1):
-        for c in range(0, sp):
-            print(end=' ')
-        for c in range(0, r):
-            print('*', end=' ')
-        sp += 1
-        print()
-
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-9.py
-
-        """)
-    
 elif (res=="code"):
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-9.py
-
-        """)
+    url2=""
+    label2=""
+    print(f'<a href ="{url2}">{label2}</a>')
     
+
 else :
-    print("Bye Bye")
+    print("Put Right Key word from (one/code)")

@@ -1,44 +1,16 @@
-res=input("do you want to try the oneliner or normal ? (one/nor/code) :")
+res=input("Do you want to try the oneliner or normal ? (one/code) :")
 
 if (res=="one"):
-    #oneliner
-    for r in range(0, 5, 2): print(' ' * (6 - r) + '* ' * (r + 1))
+    url1="https://github.com/Kaustavoffx/CODE-Oneliner/blob/873b44d9779a2c456f9c3cc3d599da24b830ce6c/Nested%20loop/pattern-6.py"
+    label1="Nested loop/pattern-6.py"
+    print(f'<a href ="{url1}">{label1}</a>')
 
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-6.py
 
-        """)
-    
-elif (res=="nor") :
-    n=5
-    sp=round(n/2)*2
-    for r in range (0,n,2):
-        for c in range (0,sp+1):
-            print(end=' ')
-        for c in range(0,r+1):
-            print('*',end=' ')
-        sp-=2
-        print()
-
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-6.py
-
-        """)
-    
 elif (res=="code"):
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-6.py
-
-        """)
+    url2=""
+    label2=""
+    print(f'<a href ="{url2}">{label2}</a>')
+    
     
 else :
-    print("Bye Bye")
+    print("Put Right Key word from (one/code)")

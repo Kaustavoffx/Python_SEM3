@@ -1,40 +1,16 @@
-res=input("do you want to try the oneliner or normal ? (one/nor/code) :")
+res=input("Do you want to try the oneliner or normal ? (one/code) :")
 
 if (res=="one"):
-    #oneliner
-    for i in range(1, 11): print(' ' * (20 - i) + '* ' * i)
+    url1="https://github.com/Kaustavoffx/CODE-Oneliner/blob/873b44d9779a2c456f9c3cc3d599da24b830ce6c/Nested%20loop/pattern-4.py"
+    label1="Nested loop/pattern-4.py"
+    print(f'<a href ="{url1}">{label1}</a>')
 
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-4.py
 
-        """)
-    
-elif (res=="nor") :
-    n=20
-    for i in range (1,11):
-            print(' '*n,end=' ')
-            print('* '*(i))
-            n-=1
-
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-4.py
-
-        """)
-    
 elif (res=="code"):
-    print ("""
-    -------------------------------------------------------------------------------------------------------------------
-        Check out the code here:
-        ↓↓↓
-        https://github.com/Kaustavoffx/Python_SEM3/blob/c3638097bc9868912aec0db9ce5f3123021de96b/Nested%20loop/pattern-4.py
-
-        """)
+    url2=""
+    label2=""
+    print(f'<a href ="{url2}">{label2}</a>')
+    
     
 else :
-    print("Bye Bye")
+    print("Put Right Key word from (one/code)")
