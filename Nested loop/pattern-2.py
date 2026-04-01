@@ -7,8 +7,8 @@ if (res=="one"):
 
 
 elif (res=="code"):
-    url2=""
-    label2=""
+    url2="https://github.com/Kaustavoffx/CODE-Normal/blob/978fe4a37df2969d4f2695ab2d45f16cb8026d7a/Nested%20loop/pattern-2.py"
+    label2="Nested loop/pattern-2.py"
     print(f'<a href ="{url2}">{label2}</a>')
     
     
