@@ -1,7 +1,7 @@
 # Python-SEM3
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2540,100:134074&height=180&section=header&text=Python%20Code%20-%20Oneliner&fontSize=42&fontColor=FFFFFF&animation=fadeIn" alt="Project Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2540,100:134074&height=180&section=header&text=Python%20Code%20-%20SEM3&fontSize=42&fontColor=FFFFFF&animation=fadeIn" alt="Project Banner" />
 </p>
 
 <p align="center">
