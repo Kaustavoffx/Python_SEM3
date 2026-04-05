@@ -4,7 +4,7 @@ import os
 def open_circle_link():
     # Replace these placeholders with your actual GitHub links when you upload them
     links = {
-        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/main/Basic/circle.py",
+        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P2-Circle%20circumference%20and%20area.py",
         "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/circle.py"
     }
 

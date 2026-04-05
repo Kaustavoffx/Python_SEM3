@@ -4,7 +4,7 @@ import os
 def open_expression_link():
     # Update these with your actual GitHub links for expression.py
     links = {
-        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/main/Basic/expression.py",
+        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P8-Given%20Expression%20Calculation.py",
         "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/expression.py"
     }
 

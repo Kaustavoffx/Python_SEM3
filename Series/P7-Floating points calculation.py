@@ -4,7 +4,7 @@ import os
 def open_calculator_link():
     # Update these with your actual GitHub links when you upload them
     links = {
-        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/main/Basic/calculator.py",
+        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P7-Floating%20points%20calculation.py",
         "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/calculator.py"
     }
 

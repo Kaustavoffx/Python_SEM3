@@ -4,7 +4,7 @@ import os
 def open_swap_link():
     # Update these with your actual GitHub links when you upload them
     links = {
-        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/main/Basic/swap.py",
+        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P5-Input%20swaping.py",
         "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/swap.py"
     }
 

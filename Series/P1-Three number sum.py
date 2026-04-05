@@ -4,7 +4,7 @@ import os
 def open_sum_link():
     # Placeholder URLs - update these with your actual GitHub links if you have them!
     links = {
-        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/main/Basic/sum.py",
+        "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P1-Three%20number%20sum.py",
         "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/sum.py"
     }
 
