@@ -5,7 +5,7 @@ def open_si_link():
     # Update these with your actual GitHub links for simple_interest.py
     links = {
         "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P9-Simple%20Interest%20calculation%20.py",
-        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/simple_interest.py"
+        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/ae8f13a5d665dfeca297f7ec04d8e155ff68bbe0/Series/P9-Simple%20Interest%20calculation%20.py"
     }
 
     while True:

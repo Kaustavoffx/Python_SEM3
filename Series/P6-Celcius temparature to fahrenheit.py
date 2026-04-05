@@ -5,7 +5,7 @@ def open_temp_converter_link():
     # Update these with your actual GitHub links when you upload them
     links = {
         "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P6-Celcius%20temparature%20to%20fahrenheit.py",
-        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/celsius_to_fahrenheit.py"
+        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/ae8f13a5d665dfeca297f7ec04d8e155ff68bbe0/Series/P6-Celcius%20temparature%20to%20fahrenheit.py"
     }
 
     while True:

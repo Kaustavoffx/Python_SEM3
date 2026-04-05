@@ -6,7 +6,7 @@ def open_heron_link():
     # Update these with your actual GitHub links
     links = {
         "one": "https://github.com/Kaustavoffx/CODE-Oneliner/blob/36ecb4aee42fdf24cb3eca4f2eb88d3dcf8765c3/Series/P10-Heron's%20Formula.py",
-        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/main/Basic/herons_formula.py"
+        "code": "https://github.com/Kaustavoffx/CODE-Normal/blob/ae8f13a5d665dfeca297f7ec04d8e155ff68bbe0/Series/P10-Heron's%20Formula.py"
     }
 
     while True:
