@@ -9,7 +9,7 @@ def open_pattern9_link():
 
     # Loop keeps asking until the user provides a valid answer
     while True:
-        res = input("Do you want to try the oneliner, normal, or run the code? (one/code/run): ").strip().lower()
+        res = input("Do you want to try the oneliner, Source code, or run the code? (one/code/run): ").strip().lower()
         
         if res in links:
             url = links[res]

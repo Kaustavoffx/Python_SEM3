@@ -10,7 +10,7 @@ def open_pattern2_link():
     # Keep asking until the user provides a valid answer
     while True:
         # Prompt updated to include the 'run' option
-        res = input("Do you want to try the oneliner, normal, or run the code? (one/code/run): ").strip().lower()
+        res = input("Do you want to try the oneliner, Source code, or run the code? (one/code/run): ").strip().lower()
         
         if res in links:
             url = links[res]
